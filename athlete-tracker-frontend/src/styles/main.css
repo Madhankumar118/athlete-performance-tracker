@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer, nav, main, aside {
+  padding: 1em;
+}
+
+button {
+  cursor: pointer;
+}
+
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+.alert {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.alert-error {
+  color: #721c24;
+  background-color: #f8d7da;
+}
+
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+}
+
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.2);
+}
+
+.btn-secondary {
+  background: #ccc;
+  margin-left: 10px;
+}
+
+.page-container {
+  padding: 20px;
+}
