@@ -1,18 +1,52 @@
-# Ignore build and dependency folders
-node_modules/
+# --- Java / Spring Boot ---
 target/
+*.jar
+*.war
+*.class
+*.log
+*.iml
 .mvn/
-
-# IDE-specific
-.vscode/
+!.mvn/wrapper/maven-wrapper.jar
 .idea/
+.gradle/
+build/
+out/
 
-# OS-specific
+# --- Maven specific ---
+dependency-reduced-pom.xml
+buildNumber.properties
+release.properties
+
+# --- Eclipse / IntelliJ IDEA ---
+*.classpath
+*.project
+*.settings/
+*.factorypath
+*.vscode/
+*.env
+
+# --- React frontend ---
+node_modules/
+build/
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.npm/
+
+# --- OS files ---
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# --- Test / Coverage reports ---
+coverage/
+*.lcov
 
-# Env files
-.env
+# --- Log files ---
+*.log
+logs/
+
+# --- Misc ---
+*.bak
+*.swp
